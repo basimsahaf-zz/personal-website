@@ -10,6 +10,7 @@ body {
   background: #614385;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #516395, #614385);
   background: linear-gradient(to right, #516395, #614385);
+  color: white;
 }
 
 
@@ -20,7 +21,7 @@ body {
 .infoCard {
   width:450px;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.49);
+  background-color: rgba(255, 255, 255, 0.28);
 }
 
 
@@ -40,7 +41,7 @@ body {
 }
 
 .socialIcons {
-  color: black;
+  color: #351062;
   font-size: 250%;
   padding: 3%;
   transition: 0.2s ease-in;
@@ -54,6 +55,12 @@ body {
 
 .text {
   opacity: 1;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .imageLogo {
