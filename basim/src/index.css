@@ -13,6 +13,27 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  color: black;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
+.carousel .carousel-item {
+  height: 50vh;
+  width: 50vw;
+  
+}
+
+.test2 {
+  height: 100vh;
+  width: 100vw;
+}
 
 .col {
   margin-top: 25vh;
@@ -22,14 +43,17 @@ body {
   width:450px;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.28);
+  color: white;
 }
 
+.bio {
+  color: #cfd4d7;
+  text-align: center;
+  padding: 2%;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
 
-/*@media only screen and (min-width: 330px) {
-  .infoCard {
-    width: 370px;
-  }
-}*/
 
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
@@ -41,14 +65,14 @@ body {
 }
 
 .socialIcons {
-  color: #351062;
+  color: #2c3e50;
   font-size: 250%;
   padding: 3%;
   transition: 0.2s ease-in;
 }
 
 .socialIcons:hover {
-  color: #cc2b5e;
+  color: white;
   transition: 0.2s ease-in;
 }
 
@@ -58,7 +82,7 @@ body {
 }
 
 .name {
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     word-spacing: 1px;
     letter-spacing: 1px;
 }
@@ -67,6 +91,7 @@ body {
   width: 35%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 420px){

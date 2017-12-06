@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
-import {Col, Card} from 'react-materialize';
+import {Col, Card, Carousel} from 'react-materialize';
 import FontAwesome from 'react-fontawesome';
 import Resources from './resources';
-import {Image} from 'react-bootstrap';
+//import {Image} from 'react-bootstrap';
 
-import Picture from './mg/pic.png';
+//import Picture from './mg/pic.png';
 
 
 
@@ -24,13 +24,13 @@ class MainSection extends React.Component {
   }
   render() {
     return (
-        <Col m={6} s={12}>
-          <Card className='infoCard' actions={[this.getSocials()]} textClassName='black-text'>
-            <div style={{ fontFamily: 'Lato', fontSize: '200%', textAlign: 'center' }}className='name'>
-            <Image className="imageLogo" src={Picture} responsive/>
-            {Resources.name}</div>
-          </Card>
-        </Col>
+        <Carousel dataIndicators="true" className="test2">
+          <Card className='test'></Card>
+          <Card className='test'> </Card>
+          <Card className='test'> </Card>
+          <Card className='test'> </Card>
+          <Card className='test'> </Card>
+        </Carousel>
     )
   }
 }

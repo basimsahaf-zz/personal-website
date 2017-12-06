@@ -1,7 +1,25 @@
 module.exports = {
   name: "Basim Sultan Sahaf",
-  school: "University of Waterloo",
-  major: "Bachelor's in Computer Science",
+  school: {
+    name: "@University of Waterloo",
+    link: "https://uwaterloo.ca/",
+    major: "CS undergrad"
+  },
+  space: " ",
+  experience: {
+    current: {
+      name: "@SmartTech",
+      title: "Intern",
+      link: "https://home.smarttech.com/"
+    },
+    past:
+      [ {
+          name: "@HCIGames",
+          title: "researcher",
+          link: "http://hcigames.com/"
+        }
+      ]
+  },
   social: [
     {
       platform: "github",
